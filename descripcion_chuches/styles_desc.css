@@ -1,0 +1,118 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            background-color: #ffecd2;
+            background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #B31D34;
+            box-shadow: 0 0 5px 1px #B31D34;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 0px #ffa500, 4px 4px 0px #800080;
+            margin-bottom: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: #ffffff;
+            color: #800080;
+            padding: 10px 25px;
+            border-radius: 50px;
+            transition: 0.2s;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: white;
+            transform: scale(1.02);
+            background-color: #B31D34;
+            border: 1px solid white;
+        }
+
+        section {
+            max-width: 600px;
+            width: 90%;
+
+            margin: 0 auto 30px auto;
+            background-color: white;
+            box-shadow: 0 0 10px 1 px;
+            padding: 40px;
+            border-radius: 25px;
+            border: 5px solid #fff0f5;
+        }
+
+        h2,
+        h3 {
+            color: #9c27b0;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 50%;
+            max-width: 250px;
+
+            /* Efecto de flotación */
+            filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2));
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: rotate(5deg) scale(1.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background-color: #fafafa;
+            border-radius: 15px;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            color: #d92626;
+        }
+
+        td:last-child {
+            text-align: right;
+            color: #666;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff5f7;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #888;
+        }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="">
+    <meta name="author" content="Pedro Jurado Gavilán">
+    <meta name="author" content="Rafael García Sánchez">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./source.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Griffy&family=Henny+Penny&family=Poiret+One&family=Ribeye&family=UnifrakturMaguntia&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <h1 class="tituloheader"><i class="fa-solid fa-circle-info"></i> Opina sobre nosotros</a></h1>
+    </header>
+    <main class="flex">
+        <section class="cardinfo">
+            <div class="card-container">
+        
+        <dl>
+            <dt>¿Qué hemos tenido en cuenta para el trabajo?</dt>
+            <dd>Temática Chuches propuesta por el profesor.</dd>
+            <dd>Los temas del 1 al 8 de la asignatura de Lenguajes de Marcas.</dd>
+            <dd>Y mucha imaginación !!</dd>
+        </dl>
+        
+        
+        <h5>Sobre nosotros...</h5>
+        <ul>
+            <li>Somos un grupo de chavales apasionados por el desarrollo de aplicaciones web.</li>
+        </ul>
+        
+        <h6>Integrantes del Grupo:</h6>
+        <ol>
+            <li>Rafael García Sanchez</li>
+            <li>Pedro Jurado Gavilán</li>
+            <li>José Carlos Reina Castro</li>
+        </ol>
+
+        <iframe src="https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_web" frameborder="0"></iframe>
+
+    </div>
+        </section>
+
+        <section class="cardformu">
+            <h1 class="titulo">¡Danos tu opinión</h1>
+            <form action="proceso.php" method="post">
+                <label for="text">Escribe tu nombre:</label><br>
+                <input type="text" name="nombre" id="name">
+                <br>
+                <br>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" name="correo" id="correo">
+                <br><br>
+                <label for="range">Elija una nota (1 al 10):</label><br>
+                <input type="range" name="range " id="range" min="0" max="10">
+                <br><br>
+                <label for="comentarios">Indícanos que podemos cambiar del proyecto:</label><br>
+                <textarea name="comentario" id="comentario" cols="40" rows="5"
+                    placeholder="Recomendamos que no use este formulario ya que si escribe aquí su mensaje no llegará a ningún lado, utilice el gmail, gracias."></textarea><br>
+                <br>
+
+                <input type="submit" value="Enviar comentario">
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+        <h1><a href="./index.html"><i class="fa-solid fa-house"></i> Vuelve al inicio</a></h1>
+    </footer>
+</body>
+
+</html>
